@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -345,7 +346,7 @@
       isolation: isolate;
     }
 
-    .hero-visual > img {
+    .hero-visual>img {
       position: absolute;
       inset: 0;
       width: 100%;
@@ -900,6 +901,7 @@
     }
 
     @media (max-width: 720px) {
+
       .wrap,
       .nav-inner {
         width: min(var(--max), calc(100% - 28px));
@@ -988,14 +990,17 @@
     }
   </style>
 </head>
+
 <body>
   <header class="site-nav" aria-label="Primary navigation">
     <div class="nav-inner">
       <a class="brand" href="#top" aria-label="VR Handball home">
         <span class="brand-mark" aria-hidden="true">
           <svg viewBox="0 0 24 24" fill="none">
-            <path d="M4 14.8V9.2C4 6.3 6.3 4 9.2 4h5.6C17.7 4 20 6.3 20 9.2v5.6c0 2.9-2.3 5.2-5.2 5.2H9.2A5.2 5.2 0 0 1 4 14.8Z" stroke="currentColor" stroke-width="2"/>
-            <path d="M8 12h8M12 8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path
+              d="M4 14.8V9.2C4 6.3 6.3 4 9.2 4h5.6C17.7 4 20 6.3 20 9.2v5.6c0 2.9-2.3 5.2-5.2 5.2H9.2A5.2 5.2 0 0 1 4 14.8Z"
+              stroke="currentColor" stroke-width="2" />
+            <path d="M8 12h8M12 8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
           </svg>
         </span>
         <span>VR Handball</span>
@@ -1020,24 +1025,28 @@
           <h1 id="hero-title">VR Handball Goalkeeper Training System</h1>
           <p class="hero-subtitle">A Meta Quest 3 training experience for reactive handball penalty saves.</p>
           <p class="hero-copy">
-            We built a VR-based handball goalkeeper training system that lets players practice reactive penalty saves under different speed and environment conditions. The system provides repeatable game-like shot practice without needing a full team, gym, or live shooter.
+            We built a VR-based handball goalkeeper training system that lets players practice reactive penalty saves
+            under different speed and environment conditions. The system provides repeatable game-like shot practice
+            without needing a full team, gym, or live shooter.
           </p>
           <div class="hero-actions">
             <a class="button primary" href="#video">
               <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <path d="M8 5v14l11-7L8 5Z" fill="currentColor"/>
+                <path d="M8 5v14l11-7L8 5Z" fill="currentColor" />
               </svg>
               Watch Final Demo
             </a>
             <a class="button" href="#screenshots">
               <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <path d="M4 7a3 3 0 0 1 3-3h10a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V7Z" stroke="currentColor" stroke-width="2"/>
-                <path d="m8 15 2.5-2.5 2 2L16 11l3 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M4 7a3 3 0 0 1 3-3h10a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V7Z" stroke="currentColor"
+                  stroke-width="2" />
+                <path d="m8 15 2.5-2.5 2 2L16 11l3 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
               </svg>
               View Screenshots
             </a>
           </div>
-          
+
         </div>
 
         <div class="hero-visual reveal" aria-label="Indoor practice environment with goal and menus">
@@ -1052,7 +1061,9 @@
           <div class="section-kicker">Overview</div>
           <h2 id="overview-title">A complete VR training loop for handball goalkeeping.</h2>
           <p class="lead">
-            The system places the user in a goalkeeper role and launches spawned handball shots. The user blocks shots using their VR hands while the system tracks saves, misses, rounds, speed conditions, and environment conditions.
+            The system places the user in a goalkeeper role and launches spawned handball shots. The user blocks shots
+            using their VR hands while the system tracks saves, misses, rounds, speed conditions, and environment
+            conditions.
           </p>
         </div>
 
@@ -1060,7 +1071,10 @@
           <article class="card text-card reveal">
             <h3>Motivation and Challenge</h3>
             <p>
-              Handball goalkeepers need fast reactions, spatial judgment, and repeated exposure to penalty shots. Traditional practice depends on court time, a shooter, and consistent setup. Our project uses VR to make focused goalkeeper drills repeatable, while still facing the challenges of believable shot timing, hand collision reliability, depth perception, and distraction-heavy environments.
+              Handball goalkeepers need fast reactions, spatial judgment, and repeated exposure to penalty shots.
+              Traditional practice depends on court time, a shooter, and consistent setup. Our project uses VR to make
+              focused goalkeeper drills repeatable, while still facing the challenges of believable shot timing, hand
+              collision reliability, depth perception, and distraction-heavy environments.
             </p>
           </article>
           <aside class="card stat-panel reveal" aria-label="Project scope summary">
@@ -1087,23 +1101,60 @@
           <div class="section-kicker">Goals Achieved</div>
           <h2 id="goals-title">Goals Achieved</h2>
           <p class="lead">
-            We completed the final showcase build around a playable, measurable, and demonstrable VR goalkeeper experience.
+            We completed the final showcase build around a playable, measurable, and demonstrable VR goalkeeper
+            experience.
           </p>
         </div>
 
         <div class="check-grid">
-          <div class="check-item reveal"><span class="check-icon"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span><strong>Playable VR scene on Meta Quest 3</strong></div>
-          <div class="check-item reveal"><span class="check-icon"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span><strong>Indoor calm practice environment</strong></div>
-          <div class="check-item reveal"><span class="check-icon"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span><strong>Outdoor chaotic stadium environment</strong></div>
-          <div class="check-item reveal"><span class="check-icon"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span><strong>Runtime scene switching between environments</strong></div>
-          <div class="check-item reveal"><span class="check-icon"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span><strong>Static ball spawner from penalty position</strong></div>
-          <div class="check-item reveal"><span class="check-icon"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span><strong>Rigidbody-based ball physics</strong></div>
-          <div class="check-item reveal"><span class="check-icon"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span><strong>Hand-based save detection</strong></div>
-          <div class="check-item reveal"><span class="check-icon"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span><strong>Slow training speed and game-speed shot modes</strong></div>
-          <div class="check-item reveal"><span class="check-icon"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span><strong>In-VR HUD with round and save counter</strong></div>
-          <div class="check-item reveal"><span class="check-icon"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span><strong>9-zone target grid for varied shot locations</strong></div>
-          <div class="check-item reveal"><span class="check-icon"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span><strong>Audio feedback and ambient stadium sound</strong></div>
-          <div class="check-item reveal"><span class="check-icon"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span><strong>Final edited video demo showing the completed system</strong></div>
+          <div class="check-item reveal"><span class="check-icon"><svg viewBox="0 0 24 24" fill="none">
+                <path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg></span><strong>Playable VR scene on Meta Quest 3</strong></div>
+          <div class="check-item reveal"><span class="check-icon"><svg viewBox="0 0 24 24" fill="none">
+                <path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg></span><strong>Indoor calm practice environment</strong></div>
+          <div class="check-item reveal"><span class="check-icon"><svg viewBox="0 0 24 24" fill="none">
+                <path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg></span><strong>Outdoor chaotic stadium environment</strong></div>
+          <div class="check-item reveal"><span class="check-icon"><svg viewBox="0 0 24 24" fill="none">
+                <path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg></span><strong>Runtime scene switching between environments</strong></div>
+          <div class="check-item reveal"><span class="check-icon"><svg viewBox="0 0 24 24" fill="none">
+                <path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg></span><strong>Static ball spawner from penalty position</strong></div>
+          <div class="check-item reveal"><span class="check-icon"><svg viewBox="0 0 24 24" fill="none">
+                <path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg></span><strong>Rigidbody-based ball physics</strong></div>
+          <div class="check-item reveal"><span class="check-icon"><svg viewBox="0 0 24 24" fill="none">
+                <path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg></span><strong>Hand-based save detection</strong></div>
+          <div class="check-item reveal"><span class="check-icon"><svg viewBox="0 0 24 24" fill="none">
+                <path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg></span><strong>Slow training speed and game-speed shot modes</strong></div>
+          <div class="check-item reveal"><span class="check-icon"><svg viewBox="0 0 24 24" fill="none">
+                <path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg></span><strong>In-VR HUD with round and save counter</strong></div>
+          <div class="check-item reveal"><span class="check-icon"><svg viewBox="0 0 24 24" fill="none">
+                <path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg></span><strong>9-zone target grid for varied shot locations</strong></div>
+          <div class="check-item reveal"><span class="check-icon"><svg viewBox="0 0 24 24" fill="none">
+                <path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg></span><strong>Audio feedback and ambient stadium sound</strong></div>
+          <div class="check-item reveal"><span class="check-icon"><svg viewBox="0 0 24 24" fill="none">
+                <path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg></span><strong>Final edited video demo showing the completed system</strong></div>
         </div>
       </div>
     </section>
@@ -1114,14 +1165,18 @@
           <div class="section-kicker">Experience Modes</div>
           <h2 id="modes-title">Experience Modes</h2>
           <p class="lead">
-            The final build supports controlled drills as well as more game-like pressure by combining environment intensity with shot speed.
+            The final build supports controlled drills as well as more game-like pressure by combining environment
+            intensity with shot speed.
           </p>
         </div>
 
         <div class="grid four">
           <article class="card mode-card reveal">
             <div class="mode-top">
-              <div class="mode-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 20h16M6 20V8l6-4 6 4v12M9 20v-6h6v6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              <div class="mode-icon"><svg viewBox="0 0 24 24" fill="none">
+                  <path d="M4 20h16M6 20V8l6-4 6 4v12M9 20v-6h6v6" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                </svg></div>
               <span class="mode-chip">Controlled</span>
             </div>
             <div>
@@ -1131,7 +1186,10 @@
           </article>
           <article class="card mode-card reveal">
             <div class="mode-top">
-              <div class="mode-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 20h16M6 20V8l6-4 6 4v12M9 20v-6h6v6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              <div class="mode-icon"><svg viewBox="0 0 24 24" fill="none">
+                  <path d="M4 20h16M6 20V8l6-4 6 4v12M9 20v-6h6v6" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                </svg></div>
               <span class="mode-chip">Reactive</span>
             </div>
             <div>
@@ -1141,7 +1199,10 @@
           </article>
           <article class="card mode-card reveal">
             <div class="mode-top">
-              <div class="mode-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M3 21h18M5 21V9l7-5 7 5v12M8 11h2M14 11h2M8 15h2M14 15h2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              <div class="mode-icon"><svg viewBox="0 0 24 24" fill="none">
+                  <path d="M3 21h18M5 21V9l7-5 7 5v12M8 11h2M14 11h2M8 15h2M14 15h2" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg></div>
               <span class="mode-chip">Distraction</span>
             </div>
             <div>
@@ -1151,7 +1212,10 @@
           </article>
           <article class="card mode-card reveal">
             <div class="mode-top">
-              <div class="mode-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M13 2 4 14h7l-1 8 10-13h-7l0-7Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              <div class="mode-icon"><svg viewBox="0 0 24 24" fill="none">
+                  <path d="M13 2 4 14h7l-1 8 10-13h-7l0-7Z" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                </svg></div>
               <span class="mode-chip">Match-like</span>
             </div>
             <div>
@@ -1168,40 +1232,44 @@
         <div class="section-heading reveal">
           <div class="section-kicker">Screenshots / Visual Walkthrough</div>
           <h2 id="screenshots-title">Scene Gallery</h2>
-          
+
         </div>
 
         <div class="gallery">
-          <!-- Screenshot placeholder: replace DirectionalAudioStandsView.png with the actual local screenshot path. -->
+
           <figure class="card shot-card reveal">
             <div class="media-shell" data-fallback="Screenshot placeholder: DirectionalAudioStandsView.png">
-              <img src="DirectionalAudioStandsView.png" alt="Directional audio and stadium seating view" loading="lazy" />
+              <img src="DirectionalAudioStandsView.png" alt="Directional audio and stadium seating view"
+                loading="lazy" />
             </div>
-            <figcaption>Directional audio and stadium seating view, showing the chaotic match-like environment.</figcaption>
+            <figcaption>Directional audio and stadium seating view, showing the chaotic match-like environment.
+            </figcaption>
           </figure>
 
-          <!-- Screenshot placeholder: replace PracticeEnvironmentWithGoalAndMenus.png with the actual local screenshot path. -->
+
           <figure class="card shot-card reveal">
             <div class="media-shell" data-fallback="Screenshot placeholder: PracticeEnvironmentWithGoalAndMenus.png">
-              <img src="PracticeEnvironmentWithGoalAndMenus.png" alt="Indoor practice environment with goal and menus" loading="lazy" />
+              <img src="PracticeEnvironmentWithGoalAndMenus.png" alt="Indoor practice environment with goal and menus"
+                loading="lazy" />
             </div>
             <figcaption>Indoor practice environment with the goal, HUD, and restart/menu interface.</figcaption>
           </figure>
 
-          <!-- Screenshot placeholder: replace StadiumEnvironmentWithGoalAndMenus.png with the actual local screenshot path. -->
           <figure class="card shot-card reveal">
             <div class="media-shell" data-fallback="Screenshot placeholder: StadiumEnvironmentWithGoalAndMenus.png">
-              <img src="StadiumEnvironmentWithGoalAndMenus.png" alt="Chaotic stadium environment with gameplay menu overlay" loading="lazy" />
+              <img src="StadiumEnvironmentWithGoalAndMenus.png"
+                alt="Chaotic stadium environment with gameplay menu overlay" loading="lazy" />
             </div>
             <figcaption>Chaotic stadium environment with gameplay menu overlay and goalkeeper viewpoint.</figcaption>
           </figure>
 
-          <!-- Screenshot placeholder: replace StadiumStandsView.png with the actual local screenshot path. -->
           <figure class="card shot-card reveal">
             <div class="media-shell" data-fallback="Screenshot placeholder: StadiumStandsView.png">
-              <img src="StadiumStandsView.png" alt="Wide stadium view with arena layout and crowd sections" loading="lazy" />
+              <img src="StadiumStandsView.png" alt="Wide stadium view with arena layout and crowd sections"
+                loading="lazy" />
             </div>
-            <figcaption>Wide stadium view showing the full arena layout, crowd sections, goal area, and field.</figcaption>
+            <figcaption>Wide stadium view showing the full arena layout, crowd sections, goal area, and field.
+            </figcaption>
           </figure>
         </div>
       </div>
@@ -1213,7 +1281,9 @@
           <div class="section-kicker">Technical Implementation</div>
           <h2 id="technical-title">Technical Implementation</h2>
           <p class="lead">
-            The project uses Unity and Meta Quest 3 platform capabilities for VR rendering, tracking, and physics. On top of that, we implemented the environment, spawning, interaction, scoring, audio, and demo systems that make the training loop work.
+            The project uses Unity and Meta Quest 3 platform capabilities for VR rendering, tracking, and physics. On
+            top of that, we implemented the environment, spawning, interaction, scoring, audio, and demo systems that
+            make the training loop work.
           </p>
         </div>
 
@@ -1221,13 +1291,18 @@
           <article class="card text-card reveal">
             <h3>Proposed techniques and approach</h3>
             <p>
-              The core approach is a geometric and physics-based penalty simulation: spawn the ball from a fixed penalty position, aim it toward a configurable 9-zone target grid, launch it with Rigidbody motion, then evaluate whether the user's tracked VR hand colliders intercept the shot before it reaches the goal/miss area.
+              The core approach is a geometric and physics-based penalty simulation: spawn the ball from a fixed penalty
+              position, aim it toward a configurable 9-zone target grid, launch it with Rigidbody motion, then evaluate
+              whether the user's tracked VR hand colliders intercept the shot before it reaches the goal/miss area.
             </p>
           </article>
           <article class="card text-card reveal">
             <h3>Implementation</h3>
             <p>
-              We relied on the Unity engine, Meta Quest 3 VR runtime, standard Rigidbody physics, and headset/controller or hand-tracking inputs as the platform foundation. The team implemented the handball scenes, ball spawner behavior, shot condition configuration, save/miss detection, HUD, audio feedback, environment switching, and final recorded demo.
+              We relied on the Unity engine, Meta Quest 3 VR runtime, standard Rigidbody physics, and headset/controller
+              or hand-tracking inputs as the platform foundation. The team implemented the handball scenes, ball spawner
+              behavior, shot condition configuration, save/miss detection, HUD, audio feedback, environment switching,
+              and final recorded demo.
             </p>
           </article>
         </div>
@@ -1235,32 +1310,77 @@
         <div class="card text-card reveal" style="margin-top: 18px;">
           <div class="tech-list">
             <div class="tech-item">
-              <div class="tech-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 20h16M5 20V8l7-5 7 5v12M9 20v-6h6v6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-              <div><h3>Environment system</h3><p>Calm indoor scene and chaotic stadium scene, with runtime switching between training contexts.</p></div>
+              <div class="tech-icon"><svg viewBox="0 0 24 24" fill="none">
+                  <path d="M4 20h16M5 20V8l7-5 7 5v12M9 20v-6h6v6" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                </svg></div>
+              <div>
+                <h3>Environment system</h3>
+                <p>Calm indoor scene and chaotic stadium scene, with runtime switching between training contexts.</p>
+              </div>
             </div>
             <div class="tech-item">
-              <div class="tech-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 4a8 8 0 1 0 0 16 8 8 0 0 0 0-16ZM4.5 9.5h15M7 17l10-10M7 7l10 10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
-              <div><h3>Ball system</h3><p>Rigidbody ball prefab, static spawner, configurable trajectory, target zones, and speed values.</p></div>
+              <div class="tech-icon"><svg viewBox="0 0 24 24" fill="none">
+                  <path d="M12 4a8 8 0 1 0 0 16 8 8 0 0 0 0-16ZM4.5 9.5h15M7 17l10-10M7 7l10 10" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" />
+                </svg></div>
+              <div>
+                <h3>Ball system</h3>
+                <p>Rigidbody ball prefab, static spawner, configurable trajectory, target zones, and speed values.</p>
+              </div>
             </div>
             <div class="tech-item">
-              <div class="tech-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 9v6h4l5 4V5L8 9H4Zm13.5-.5a5 5 0 0 1 0 7M20 6a9 9 0 0 1 0 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-              <div><h3>Audio</h3><p>Directional audio for crowd and HRTF, ambient stadium music, whistle before the start of a round, and whoosh sound of balls.</p></div>
+              <div class="tech-icon"><svg viewBox="0 0 24 24" fill="none">
+                  <path d="M4 9v6h4l5 4V5L8 9H4Zm13.5-.5a5 5 0 0 1 0 7M20 6a9 9 0 0 1 0 12" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg></div>
+              <div>
+                <h3>Audio</h3>
+                <p>Directional audio for crowd and HRTF, ambient stadium music, whistle before the start of a round, and
+                  whoosh sound of balls.</p>
+              </div>
             </div>
             <div class="tech-item">
-              <div class="tech-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M8 11V7a2 2 0 1 1 4 0v4M12 10V6a2 2 0 1 1 4 0v7M16 11V8a2 2 0 1 1 4 0v5a7 7 0 0 1-7 7h-1a8 8 0 0 1-8-8v-1a2 2 0 1 1 4 0v1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-              <div><h3>Interaction system</h3><p>Hand colliders and save/miss detection logic for blocking shots with VR hands.</p></div>
+              <div class="tech-icon"><svg viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M8 11V7a2 2 0 1 1 4 0v4M12 10V6a2 2 0 1 1 4 0v7M16 11V8a2 2 0 1 1 4 0v5a7 7 0 0 1-7 7h-1a8 8 0 0 1-8-8v-1a2 2 0 1 1 4 0v1"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg></div>
+              <div>
+                <h3>Interaction system</h3>
+                <p>Hand colliders and save/miss detection logic for blocking shots with VR hands.</p>
+              </div>
             </div>
             <div class="tech-item">
-              <div class="tech-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 4h16v16H4V4Zm5.3 0v16M14.7 4v16M4 9.3h16M4 14.7h16" stroke="currentColor" stroke-width="2"/></svg></div>
-              <div><h3>Difficulty system</h3><p>Slow training speed and game-speed tiers paired with a 9-zone target grid for varied shot locations.</p></div>
+              <div class="tech-icon"><svg viewBox="0 0 24 24" fill="none">
+                  <path d="M4 4h16v16H4V4Zm5.3 0v16M14.7 4v16M4 9.3h16M4 14.7h16" stroke="currentColor"
+                    stroke-width="2" />
+                </svg></div>
+              <div>
+                <h3>Difficulty system</h3>
+                <p>Slow training speed and game-speed tiers paired with a 9-zone target grid for varied shot locations.
+                </p>
+              </div>
             </div>
             <div class="tech-item">
-              <div class="tech-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M5 5h14v10H5V5Zm3 14h8M12 15v4M8 9h3M8 12h8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-              <div><h3>Feedback display</h3><p>In-VR HUD, score and round counter, round restart button, and game mode selector.</p></div>
+              <div class="tech-icon"><svg viewBox="0 0 24 24" fill="none">
+                  <path d="M5 5h14v10H5V5Zm3 14h8M12 15v4M8 9h3M8 12h8" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                </svg></div>
+              <div>
+                <h3>Feedback display</h3>
+                <p>In-VR HUD, score and round counter, round restart button, and game mode selector.</p>
+              </div>
             </div>
             <div class="tech-item">
-              <div class="tech-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 7a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7Zm13 3 4-2v8l-4-2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-              <div><h3>Demo system</h3><p>Final recorded video showing the four condition combinations and the completed gameplay loop.</p></div>
+              <div class="tech-icon"><svg viewBox="0 0 24 24" fill="none">
+                  <path d="M4 7a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7Zm13 3 4-2v8l-4-2"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg></div>
+              <div>
+                <h3>Demo system</h3>
+                <p>Final recorded video showing the four condition combinations and the completed gameplay loop.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -1273,7 +1393,8 @@
           <div class="section-kicker">Team Contributions</div>
           <h2 id="team-title">Team Contributions</h2>
           <p class="lead">
-            The implementation was divided across environment design, physics-based shot behavior, interaction logic, HUD feedback, audio, and final demo production.
+            The implementation was divided across environment design, physics-based shot behavior, interaction logic,
+            HUD feedback, audio, and final demo production.
           </p>
         </div>
 
@@ -1318,7 +1439,10 @@
             <div class="section-kicker">Final Outcome</div>
             <h2 id="outcome-title">Final Outcome</h2>
             <p>
-              We completed the core VR goalkeeper training loop, including environment switching, configurable shot speed, target variation, save detection, scoring UI, audio feedback, and a final video demo. The project demonstrates how VR can provide repeatable, focused goalkeeper training under both controlled and high-distraction conditions.
+              We completed the core VR goalkeeper training loop, including environment switching, configurable shot
+              speed, target variation, save detection, scoring UI, audio feedback, and a final video demo. The project
+              demonstrates how VR can provide repeatable, focused goalkeeper training under both controlled and
+              high-distraction conditions.
             </p>
           </div>
           <div class="result-meter" aria-label="System demonstration summary">
@@ -1345,7 +1469,7 @@
           <div class="section-heading reveal">
             <div class="section-kicker">Future Work</div>
             <h2 id="future-title">Future Work</h2>
-            
+
           </div>
           <article class="card text-card reveal">
             <ul class="future-list">
@@ -1365,24 +1489,23 @@
           <div class="section-kicker">Final Video Demo</div>
           <h2 id="video-title">Final Video Demo</h2>
           <p class="lead">
-            The final demo shows the goalkeeper training loop across the four condition combinations: calm slow, calm game speed, chaotic slow, and chaotic game speed.
+            The final demo shows the goalkeeper training loop across the four condition combinations: calm slow, calm
+            game speed, chaotic slow, and chaotic game speed.
           </p>
         </div>
 
         <div class="video-stage reveal">
           <div class="video-frame">
-            
-            <iframe
-              src="https://www.youtube.com/embed/ZYlts9kf8Ec"
-              title="VR Handball Goalkeeper Training System final demo"
-              referrerpolicy="strict-origin-when-cross-origin"
+
+            <iframe src="https://www.youtube.com/embed/J_UAsY29w2o"
+              title="VR Handball Goalkeeper Training System final demo" referrerpolicy="strict-origin-when-cross-origin"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen>
             </iframe>
           </div>
           <div class="video-note">
             <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-              <path d="M12 3v18M3 12h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M12 3v18M3 12h18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
             </svg>
           </div>
         </div>
@@ -1391,8 +1514,14 @@
   </main>
 
   <footer>
-    <div class="wrap">
+    <div class="wrap" style="color: white; font-size: 1.25rem;">
       VR Handball Goalkeeper Training System — Adithya Koshanam, Anthony Ma, Amrit Magesh
+      <br>
+      GitHub Repo:
+      <a href="https://github.com/adithyako/731finalproject" target="_blank" rel="noopener noreferrer"
+        style="color: white; font-size: 1.25rem;">
+        https://github.com/adithyako/731finalproject
+      </a>
     </div>
   </footer>
 
@@ -1437,4 +1566,5 @@
     });
   </script>
 </body>
+
 </html>
